@@ -11,7 +11,7 @@ com maior abundancia ou escassez, e se tem haver com os casos da dengue
 
 - Analisar diferentes biomas e sua interferência no número de casos de dengue.
 
-## o que estamos procurando 📌 ?
+## O que estamos procurando 📌 ?
 Uma organização quer fazer uma análise exploratória, para descobrir como foi o crescimento da doença da Dengue no Brasil durante os anos para entender políticas de combate para doenças.
 
 ## Descrição das colunas ultizadas:
