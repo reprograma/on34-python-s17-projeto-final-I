@@ -91,11 +91,7 @@ O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
 - [Markdown Cheastsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
 
   #### Base de Dados
-- [Kaggle](https://www.kaggle.com/datasets)
-- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
-- [Brasil.io](https://brasil.io/datasets/)
-- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
-- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
+- [IPEA DATA](https:ipeadata.gov.br/Default.aspx)
 
 <p align="center">
 Desenvolvido com :purple_heart:  
