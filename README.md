@@ -65,8 +65,10 @@ Durante o desenvolvimento, outras questões foram levantadas:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/meduardajustino/on34-python-s17-s18-projeto-final.git
+   git clone https://github.com/meduardajustino/on34-python-s17-s18-projeto-final.
 
+
+   
 <p align="center">
 Desenvolvido por Maria Eduarda Justino e Nayara Oliveira :purple_heart:  
 </p>
