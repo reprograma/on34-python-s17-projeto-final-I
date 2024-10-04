@@ -1,104 +1,51 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
+README:
+Projeto final
+Queimadas no Brasil: 
+Análise da Influência de Fatores Ambientais e Climáticas nos anos de 2022 e 2023
 
-# Tema da Aula
+Nara Sane
+Polli Ferraz
+Reprograma - On34
 
-Turma Online 34 | Python | Semanas 17 e 18 | 2024 | [Daniele Junior](https://travatech.com.br?router=danijr)
+Objetivo Geral:
+Analisar a correlação entre a ocorrência de queimadas e fatores climáticos, como períodos sem chuva, precipitação, e a distribuição espacial das queimadas em diferentes biomas no Brasil, para os anos de 2022 e 2023.
 
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras instruções caso necessário]
+Hipóteses:
+Hipótese 1: Queimadas são mais frequentes em determinados biomas e variam de acordo com as estações do ano.
+Objetivo: Analisar se há biomas ou regiões mais propensas a queimadas e como as estações do ano influenciam essa frequência.
+Hipótese 2: A ocorrência de queimadas não tem influência do tamanho dos períodos de seca/sem precipitação.
+Objetivo: Verificar a relação entre o número de dias sem chuva/precipitação e a quantidade de focos de queimadas.
+Hipótese 3:A precipitação média diária não tem correlação com os focos de queimadas, entre 2022 e 2023.
+Objetivo: Comparar a quantidade de focos de queimadas com a precipitação mensal, entre os anos de 2022 e 2023. 
 
-### Resumo
-O que veremos na aula de hoje?
-* [Slide Semana 17](https://docs.google.com/presentation/d/1axo2Dlm0Hx35ahKdZW6s-UAdG61L41QXdete8ZcQV0w/edit?usp=sharing)
-* Slide Semana 18
+Metodologia de Análise:
+Google colab: importar os arquivos csv.
+Concatenar as tabelas foco_br_ref (2022 e 2023)
+Concatenar as tabelas qmd_inpe (2022, 2023)
+Explorar as duas tabelas concatenadas  e juntá-las  em um único csv para iniciar as análises das hipóteses
+Tratamento dos Dados:
+Limpeza dos dados: Verificar e eliminar possíveis inconsistências nos dados, como duplicidades, dados negativos e dados ausentes.
+Padronização dos dados: foram conferidos e padronizados os tipos de dados.
+Criação de colunas novas: foram criadas três novas colunas, uma nomeada de  “Mês/Ano” a partir da coluna de “Data/Hora”, uma coluna “Estação” correspondentes a estação do período do mês/ano e uma coluna de “Região” a partir da coluna existente “Estado”.
 
-* [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
-* Análise exploratória
-* Criando uma história com dados
+Análise Descritiva:
+Focos de queimadas por Bioma e Região;
+Focos de queimadas por Mês e Bioma;
+Focos de queimadas por Mês e Estação do Ano;
+Focos de queimadas por Categoria de Seca e Ano;
+Contagem de focos de queimadas por Categoria de Seca para cada bioma, por ano;
+Contagem de focos de queimadas e Precipitação média diária mensal, por ano
+Análise Estatística:
+Análise de variância (ANOVA: oneway) entre os focos de queimadas e as estações;
+Análise de variância (ANOVA: oneway entre os focos de queimadas e as Categoria de Seca;
+Correlação de Pearson entre os focos de queimadas e a Precipitação média diária de cada mês;
 
-## Conteúdo
+Considerações finais
+Hipótese 1: Foi verificado se há diferenças significativas nos focos de queimadas entre as estações do ano. Com uma Estatística F de 12,84 e Valor p de 0,0000669, rejeitamos a hipótese nula, concluindo que há diferenças significativas entre as estações, sugerindo que as condições climáticas influenciam as queimadas.
+Hipótese 2: Não há diferença significativa (p>0,05) entre os focos de queimadas e os diferentes períodos de seca, em 2022; Há diferença significativa (p<0,05) entre os focos de queimadas e os diferentes períodos de seca, em 2023.
+Hipótese 3: Não há correlação entre os focos de queimadas e a precipitação média diária, em ambos os anos (2022: r=-0,24, 2023: r=-0,44). E a relação de tais variáveis apresentou-se inversamente proporcional.
 
-### O que é um projeto de análise de dados?
-Nesse ponto vocês já aprenderam que ter dados não é a mesma coisa que ter informação.
-**Dados:** são elementos brutos e não processados, como números, palavras, ou símbolos que precisam ser interpretados para se tornarem úteis. 
-**Informação:** é o resultado do processamento, organização e interpretação dos dados, fornecendo significado e contexto para tomar decisões ou entender situações. 
-Assim, dados são a matéria-prima da informação, que é o produto final após análise e interpretação dos dados.
-
-Por isso a importância de nós contarmos uma história estruturada a partir dos dados que conseguimos coletar. E é exatamente sobre isso, que se trata um projeto de análise de dados: **gerar informação útil a partir da construção de uma perspectiva contextualizada!**
-
-Então aqui vão algumas perguntas gerais que devemos nos fazer ao iniciar um projeto como esse:
-
-- **Conteúdo**
-  - O que eu quero informar?
-- **Público**
-  - Para quem eu estou contanto essa história? Com quem vou compartilhar essa informação?
-- **Transformação**
-  - Por que essa informação é relevante?
-    
-Ok, as perguntas são importantes, 
-
-MAS POR ONDE COMEÇAR?!
-
-### Escolhendo uma fonte de dados
-
-#### O caminho comum
-Se você já fez algum tipo de pesquisa acadêmica (TCC, Iniciação Científica, etc) você certamente está familiarizado com esse processo, pois tudo começa com a escolha de um TEMA, seguindo para a definição do PROBLEMA, que em seguida é desdobrado em PERGUNTAS, que irão guiar a COLETA DE DADOS.
-
-1. Delimitação do Tema
-2. Definição do Problema
-3. Desenvolvimento de Perguntas
-4. Coleta de Dados
-
-#### O caminho que iremos seguir
-Porque esse projeto é um exercício e encontrar os dados ideais para responder às nossas perguntas pode se tornar um trabalho extremamente complexo...
-
-Nós iremos fazer um caminho um pouco diferente e a partir de um tema de interesse, escolher uma base e então pensar quais perguntas podem ser respondidas a partir dela.
-
-O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
-
-  * **Escolha do tema**
-
-    No primeiro momento você deve escolher qual assunto gostaria de abordar. Pense em um tema atual, relevante e até onde você vai aprofundar a análise. Lembre-se, não adianta abraçar o mundo sozinho, você precisa focar e entregar o melhor resultado possível, então trabalhe na delimitação do Tema! Quais são os recortes possíveis dentro do universo escolhido?
-
-    #Dica: Dê prioridade para algo que você goste, se interesse, tenha afinidade ou conhecimento na área.
-
-  * **Escolha da Base de Dados**
-    
-    [Algumas opções de Bases de Dados](#base-de-dados)
-
-* **Definindo nossas perguntas**
-  
-  O que eu quero tentar responder? VAMOS AO [BRAINSTORM](#material-da-aula)!
-
-***
-
-### Material da aula 
-
-* [Slides](https://docs.google.com/presentation/d/1axo2Dlm0Hx35ahKdZW6s-UAdG61L41QXdete8ZcQV0w/edit?usp=sharing)
-
-### Links Úteis
-- [Documentação Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-- [Introdução ao Pandas](https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38)
-- [Análise Exploratória de Dados I](https://escoladedados.org/tutoriais/analise-exploratoria-de-dados/)
-- [Análise Exploratória de Dados II](https://www.alura.com.br/artigos/analise-exploratoria)
-- [Storytelling com Dados](https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704)
-- [Markdown Cheastsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
-
-  #### Base de Dados
-- [Kaggle](https://www.kaggle.com/datasets)
-- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
-- [Brasil.io](https://brasil.io/datasets/)
-- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
-- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
-
-<p align="center">
-Desenvolvido com :purple_heart:  
-</p>
-
-
+Fonte de dados:
+Dados de queimadas disponibilizados pelo INPE:
+Obtido em: https://terrabrasilis.dpi.inpe.br/queimadas/bdqueimadas/#exportar-dados
+Disponível em: https://terrabrasilis.dpi.inpe.br/queimadas/bdqueimadas/#exportar-dados
