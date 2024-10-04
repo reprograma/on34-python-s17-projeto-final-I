@@ -18,8 +18,21 @@ O que veremos na aula de hoje?
 * [Slide Semana 17](https://docs.google.com/presentation/d/1axo2Dlm0Hx35ahKdZW6s-UAdG61L41QXdete8ZcQV0w/edit?usp=sharing)
 * Slide Semana 18
 
-* [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
+* [fonte de dados escolhida](#https://www.kaggle.com/datasets/waqi786/mental-health-and-technology-usage-dataset?resource=download )
 * Análise exploratória
+  Semana destinada a esse tipo de análise para entendimento da base.
+
+  Nessa etapa foi usado comandos da biblioteca pandas e  matplotlib
+  Foram usados funções como:
+  DataFrame é uma estrutura de dados bidimensional amplamente usada na biblioteca pandas do Python. Ele se assemelha a uma tabela (como em uma planilha do Excel ou uma tabela SQL), onde os dados são organizados em linhas e colunas.
+  A função value_counts() é muito usada em Pandas para contar a frequência de valores únicos em uma coluna de um DataFrame.
+  A função sort_index(): é utilizada para ordenar os dados de uma Series ou DataFrame de acordo com o índice.
+  A função groupby() do pandas é usada para agrupar dados com base em uma ou mais colunas e realizar operações agregadas, como somas, médias, contagens, etc., em cada grupo
+  A função crosstab() do pandas é usada para criar uma tabela de frequência cruzada entre duas ou mais colunas. Ela é útil para gerar tabelas de contingência que mostram a relação entre variáveis categóricas, como a contagem de ocorrências entre elas.
+
+
+
+ 
 * Criando uma história com dados
 
 ## Conteúdo
@@ -36,45 +49,30 @@ Então aqui vão algumas perguntas gerais que devemos nos fazer ao iniciar um pr
 
 - **Conteúdo**
   - O que eu quero informar?
+   compreender a percepção dos entrevistados sobre seu estado mental em relação ao tempo dedicada a telas.
 - **Público**
-  - Para quem eu estou contanto essa história? Com quem vou compartilhar essa informação?
+  - Para quem eu estou contando essa história? Com quem vou compartilhar essa informação?
+   Projeto destinado a conclusão de curso do Análise de dados Reprograma
+   O contéudo da base é relevante para compreender qual a percepção dos entrevistados frente ao uso de telas
 - **Transformação**
   - Por que essa informação é relevante?
-    
-Ok, as perguntas são importantes, 
-
-MAS POR ONDE COMEÇAR?!
-
-### Escolhendo uma fonte de dados
-
-#### O caminho comum
-Se você já fez algum tipo de pesquisa acadêmica (TCC, Iniciação Científica, etc) você certamente está familiarizado com esse processo, pois tudo começa com a escolha de um TEMA, seguindo para a definição do PROBLEMA, que em seguida é desdobrado em PERGUNTAS, que irão guiar a COLETA DE DADOS.
-
-1. Delimitação do Tema
-2. Definição do Problema
-3. Desenvolvimento de Perguntas
-4. Coleta de Dados
-
-#### O caminho que iremos seguir
-Porque esse projeto é um exercício e encontrar os dados ideais para responder às nossas perguntas pode se tornar um trabalho extremamente complexo...
-
-Nós iremos fazer um caminho um pouco diferente e a partir de um tema de interesse, escolher uma base e então pensar quais perguntas podem ser respondidas a partir dela.
-
-O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
+    O conteúdo é relevante para analisar o nível de aprendizado, bem como ter acesso as informações relacionadas a base de dados 
+  
 
   * **Escolha do tema**
-
-    No primeiro momento você deve escolher qual assunto gostaria de abordar. Pense em um tema atual, relevante e até onde você vai aprofundar a análise. Lembre-se, não adianta abraçar o mundo sozinho, você precisa focar e entregar o melhor resultado possível, então trabalhe na delimitação do Tema! Quais são os recortes possíveis dentro do universo escolhido?
-
-    #Dica: Dê prioridade para algo que você goste, se interesse, tenha afinidade ou conhecimento na área.
+    Saúde mental e uso de tecnologia
 
   * **Escolha da Base de Dados**
     
-    [Algumas opções de Bases de Dados](#base-de-dados)
+    https://www.kaggle.com/datasets/waqi786/mental-health-and-technology-usage-dataset?resource=download
 
 * **Definindo nossas perguntas**
   
-  O que eu quero tentar responder? VAMOS AO [BRAINSTORM](#material-da-aula)!
+ O objetivo da análise é compreender a percepção dos entrevistados sobre seu estado mental em relação ao tempo dedicada a telas.
+
+ Verificar o padrão de horas dedicadas a horas de sono e atividade física.
+
+ Verificar a percepção sobre o impacto no trabalho em relação ao uso de telas.
 
 ***
 
@@ -92,11 +90,7 @@ O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
 
   #### Base de Dados
 - [Kaggle](https://www.kaggle.com/datasets)
-- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
-- [Brasil.io](https://brasil.io/datasets/)
-- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
-- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
-
+- 
 <p align="center">
 Desenvolvido com :purple_heart:  
 </p>
