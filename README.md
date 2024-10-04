@@ -14,7 +14,7 @@ A análise busca responder às seguintes perguntas principais:
 2. **Qual a relação entre o poder de compra e a taxa de desemprego?**
    - Avaliação de se os reajustes salariais incentivam o consumo, em especial em épocas de alta inflação.
 3. **Quais setores da economia são mais sensíveis às variações da inflação?**
-   - Foco no impacto do Índice de Preços ao Consumidor Amplo (IPCA) em diferentes setores.
+   - Foco no impacto do Índice Nacional de Preços ao Consumidor (INPC) em diferentes setores.
 4. **Como o endividamento é afetado pelo IPCA?**
    - Análise da influência das variações do IPCA na alto da taxa de endividamento dos brasileiros.
 5. **Como a intenção de consumo das famílias varia com a inflação e com o endividamente em diferentes faixas salariais?**
@@ -27,8 +27,7 @@ O projeto utiliza dados econômicos de diferentes fontes, incluindo IPCA, INPC, 
 - **Pandas** para manipulação de dados;
 - **Matplotlib** e **Seaborn** para visualizações;
 - **Numpy** para cálculos numéricos;
-- **SciPy** para análise estatística.
-
+  
 ## Estrutura do Projeto
 
 1. **Comparação do INPC e IPCA:**
@@ -41,7 +40,7 @@ O projeto utiliza dados econômicos de diferentes fontes, incluindo IPCA, INPC, 
 
 3. **Comparação do INPC por Categorias:**
    - Medidas descritivas das taxas de variação por categorias do INPC.
-   - Gráfico da variação dos preços por segmento (como alimentos, habitação, saúde, etc.).
+   - Gráfico da variação dos preços por segmento (como alimentos, habitação, saúde e transportes).
 
 4. **Normalização da Taxa de Desemprego (Z-Score):**
    - Normalização da taxa de desemprego utilizando o z-score (pontuação z) para facilitar a comparação com outras variáveis.
