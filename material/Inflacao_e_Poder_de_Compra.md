@@ -1,7 +1,3 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
-
 # **Impacto da Inflação sobre o Poder de Compra: uma análise multidimensional**
 
 Este projeto foi desenvolvido com o objetivo de analisar como a inflação afeta o poder de compra dos brasileiros ao longo dos últimos anos (janeiro de 2019 a agosto de 2024). A análise explora uma série de fatores econômicos e sociais, incluindo inflação, desemprego, salário mínimo e endividamento, com foco na variação do poder de compra em diferentes setores e grupos de renda.
