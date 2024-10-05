@@ -17,7 +17,7 @@ A análise busca responder às seguintes perguntas principais:
    - Foco no impacto do Índice Nacional de Preços ao Consumidor (INPC) em diferentes setores.
 4. **Como o endividamento é afetado pelo IPCA?**
    - Análise da influência das variações do IPCA na alto da taxa de endividamento dos brasileiros.
-5. **Como a intenção de consumo das famílias varia com a inflação e com o endividamente em diferentes faixas salariais?**
+5. **Como a intenção de consumo das famílias varia com a inflação e com o endividamento em diferentes faixas salariais?**
    - Comparação entre as famílias com renda inferior e superior a 10 salários mínimos e a resposta ao impacto inflacionário.
 
 ## Metodologia
