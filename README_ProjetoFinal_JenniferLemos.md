@@ -1,3 +1,4 @@
+
 # 🛡️ **Segurança e Violação aos Direitos da Mulher** ♀️⚧️
 
 Bem-vindo(a) ao projeto **"Segurança e Violação aos Direitos da Mulher"**. Este repositório tem como foco central a análise de um dos problemas sociais mais alarmantes no Brasil: a **violência de gênero**, com especial atenção às violências cometidas contra **mulheres cisgênero, travestis e transexuais**. A violência contra essas populações reflete não apenas a desigualdade estrutural de gênero, mas também um contexto sociocultural marcado pela discriminação e exclusão.
@@ -40,6 +41,14 @@ Estamos abertos a colaborações e sugestões! Se você deseja contribuir com es
 2. Crie uma nova **branch**.
 3. Faça suas alterações e comente claramente o que foi mudado.
 4. Envie um **Pull Request**.
+   
+## 📊 **Visualizações de Dados com Tableau**
+
+Utilizamos o **Tableau** para criar visualizações interativas e dinâmicas a partir dos dados analisados no projeto. O Tableau permite transformar grandes volumes de dados em gráficos e dashboards intuitivos, facilitando a compreensão das tendências de violência de gênero no Brasil.
+
+Com as visualizações do Tableau, você pode explorar as informações de forma visual, identificar padrões importantes e gerar insights a partir dos dados. As principais métricas e variáveis analisadas estão disponíveis para consulta e interação no painel.
+
+👉 https://public.tableau.com/views/VIOLNCIASOFRIDAPORGNERO-JenniferLemos_ProjetoFinal/IdadexViolnciaporIdentidadedeGnero?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## 💡 **Instituição**
 
