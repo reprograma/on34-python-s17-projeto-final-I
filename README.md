@@ -22,8 +22,7 @@ Disponibilizado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Aní
 
 ## Ferramentas utilizadas 
 * Tableau
-* Python
-  Bibliotecas
+* Python, com as Bibliotecas:
 - Pandas
 - Matplotlib
 
