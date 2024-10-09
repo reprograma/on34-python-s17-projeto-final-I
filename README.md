@@ -1,3 +1,6 @@
+# Análise de dados Enem 2023
+![enem1](https://github.com/user-attachments/assets/0f22035f-d723-4833-9b95-4016bb4b3217)
+
 ## Contexto
 
 Neste projeto será realizada a análise dos microdados do ENEM do ano de 2023, filtrando apenas pelas regiões Norte e Sul do país, analisaremos especificamente os dados dos inscritos  do sexo feminino das regiões Norte e Sul do Brasil. O projeto tem como objetivo analisar se há diferenças entre as inscritas dos extremos do país.
