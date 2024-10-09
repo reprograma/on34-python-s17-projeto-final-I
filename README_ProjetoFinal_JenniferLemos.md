@@ -44,9 +44,7 @@ Estamos abertos a colaborações e sugestões! Se você deseja contribuir com es
    
 ## 📊 **Visualizações de Dados com Tableau**
 
-Utilizamos o **Tableau** para criar visualizações interativas e dinâmicas a partir dos dados analisados no projeto. O Tableau permite transformar grandes volumes de dados em gráficos e dashboards intuitivos, facilitando a compreensão das tendências de violência de gênero no Brasil.
-
-Com as visualizações do Tableau, você pode explorar as informações de forma visual, identificar padrões importantes e gerar insights a partir dos dados. As principais métricas e variáveis analisadas estão disponíveis para consulta e interação no painel.
+Utilizamos o **Tableau** para criar visualizações interativas e dinâmicas a partir dos dados analisados no projeto.
 
 👉 https://public.tableau.com/views/VIOLNCIASOFRIDAPORGNERO-JenniferLemos_ProjetoFinal/IdadexViolnciaporIdentidadedeGnero?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
