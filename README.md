@@ -51,3 +51,5 @@ De acordo com nosso ensino/aprendizagem
   #### Base de Dados
 - [Kaggle](https://www.kaggle.com/datasets)
 
+ _ Adição de apresentação no Tableau
+ link: https://public.tableau.com/app/profile/manuelli.martins/viz/S18Trabalho_final/Painel1
