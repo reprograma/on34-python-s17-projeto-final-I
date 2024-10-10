@@ -28,7 +28,13 @@ Disponibilizado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Aní
 * Python, com as bibliotecas:
 - Pandas
 - Matplotlib
+  
+##Link da visualização do projeto no Tableau
+
+https://public.tableau.com/app/profile/luana.queiros/viz/Projeto_Final_ENEM2023/Painel2
+
 ![Reprograma-on34](https://github.com/user-attachments/assets/3942ca3d-6735-430c-aa05-5b540bea2863)
+
 
 - Luana Paes
 
