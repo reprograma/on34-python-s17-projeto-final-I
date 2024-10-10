@@ -1,104 +1,55 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
 
-# Tema da Aula
+Turma Online 34 | Python | Semanas 17 e 18 | 2024 | 
+*  Realizado o Fork do repositório https://github.com/reprograma/on34-python-s17-s18-projeto-final
+* Clonei o fork na minha máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do -repositorio-forkado`)
+* Add o arquivo da base de dados e o colab, bem como o README.
+* Commit – m : das atualizações/ alterações
+* Git Status: para verificação se está tudo ok
+* Git push: para enviar as mudanças para o repositório remoto.
 
-Turma Online 34 | Python | Semanas 17 e 18 | 2024 | [Daniele Junior](https://travatech.com.br?router=danijr)
-
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras instruções caso necessário]
-
-### Resumo
-O que veremos na aula de hoje?
-* [Slide Semana 17](https://docs.google.com/presentation/d/1axo2Dlm0Hx35ahKdZW6s-UAdG61L41QXdete8ZcQV0w/edit?usp=sharing)
-* Slide Semana 18
-
-* [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
+* [fonte de dados escolhida](#https://www.kaggle.com/datasets/waqi786/mental-health-and-technology-usage-dataset?resource=download )
 * Análise exploratória
-* Criando uma história com dados
+  Semana destinada a esse tipo de análise para entendimento da base.
+
+  Nessa etapa foi usado comandos da biblioteca pandas e  matplotlib
+  Foram usadas funções como:
+  DataFrame é uma estrutura de dados bidimensional amplamente usada na biblioteca pandas do Python. Ele se assemelha a uma tabela (como em uma planilha do Excel ou uma tabela SQL), onde os dados são organizados em linhas e colunas.
+  A função value_counts() é muito usada em Pandas para contar a frequência de valores únicos em uma coluna de um DataFrame.
+  A função sort_index(): é utilizada para ordenar os dados de uma Series ou DataFrame de acordo com o índice.
+  A função groupby() do pandas é usada para agrupar dados com base em uma ou mais colunas e realizar operações agregadas, como somas, médias, contagens, etc., em cada grupo
+  A função crosstab() do pandas é usada para criar uma tabela de frequência cruzada entre duas ou mais colunas. Ela é útil para gerar tabelas de contingência que mostram a relação entre variáveis categóricas, como a contagem de ocorrências entre elas.
+
 
 ## Conteúdo
 
 ### O que é um projeto de análise de dados?
-Nesse ponto vocês já aprenderam que ter dados não é a mesma coisa que ter informação.
+De acordo com nosso ensino/aprendizagem
 **Dados:** são elementos brutos e não processados, como números, palavras, ou símbolos que precisam ser interpretados para se tornarem úteis. 
 **Informação:** é o resultado do processamento, organização e interpretação dos dados, fornecendo significado e contexto para tomar decisões ou entender situações. 
-Assim, dados são a matéria-prima da informação, que é o produto final após análise e interpretação dos dados.
-
-Por isso a importância de nós contarmos uma história estruturada a partir dos dados que conseguimos coletar. E é exatamente sobre isso, que se trata um projeto de análise de dados: **gerar informação útil a partir da construção de uma perspectiva contextualizada!**
-
-Então aqui vão algumas perguntas gerais que devemos nos fazer ao iniciar um projeto como esse:
 
 - **Conteúdo**
-  - O que eu quero informar?
+     Compreender a percepção dos entrevistados sobre seu estado mental em relação ao tempo dedicada a telas.
 - **Público**
-  - Para quem eu estou contanto essa história? Com quem vou compartilhar essa informação?
+   Projeto destinado a conclusão de curso do Análise de dados  no Reprograma
+   O conteúdo da base é relevante para compreender qual a percepção dos entrevistados frente ao uso de telas
+
 - **Transformação**
-  - Por que essa informação é relevante?
-    
-Ok, as perguntas são importantes, 
-
-MAS POR ONDE COMEÇAR?!
-
-### Escolhendo uma fonte de dados
-
-#### O caminho comum
-Se você já fez algum tipo de pesquisa acadêmica (TCC, Iniciação Científica, etc) você certamente está familiarizado com esse processo, pois tudo começa com a escolha de um TEMA, seguindo para a definição do PROBLEMA, que em seguida é desdobrado em PERGUNTAS, que irão guiar a COLETA DE DADOS.
-
-1. Delimitação do Tema
-2. Definição do Problema
-3. Desenvolvimento de Perguntas
-4. Coleta de Dados
-
-#### O caminho que iremos seguir
-Porque esse projeto é um exercício e encontrar os dados ideais para responder às nossas perguntas pode se tornar um trabalho extremamente complexo...
-
-Nós iremos fazer um caminho um pouco diferente e a partir de um tema de interesse, escolher uma base e então pensar quais perguntas podem ser respondidas a partir dela.
-
-O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
+    O conteúdo é relevante para analisar o nível de aprendizado, bem como ter acesso as informações relacionadas a base de dados 
+  
 
   * **Escolha do tema**
+    Saúde mental e uso de tecnologia
 
-    No primeiro momento você deve escolher qual assunto gostaria de abordar. Pense em um tema atual, relevante e até onde você vai aprofundar a análise. Lembre-se, não adianta abraçar o mundo sozinho, você precisa focar e entregar o melhor resultado possível, então trabalhe na delimitação do Tema! Quais são os recortes possíveis dentro do universo escolhido?
-
-    #Dica: Dê prioridade para algo que você goste, se interesse, tenha afinidade ou conhecimento na área.
-
-  * **Escolha da Base de Dados**
-    
-    [Algumas opções de Bases de Dados](#base-de-dados)
-
-* **Definindo nossas perguntas**
+* **Objetivos **
   
-  O que eu quero tentar responder? VAMOS AO [BRAINSTORM](#material-da-aula)!
+ O objetivo da análise é compreender a percepção dos entrevistados sobre seu estado mental em relação ao tempo dedicada a telas.
 
-***
+ Verificar o padrão de horas dedicadas a horas de sono e atividade física.
 
-### Material da aula 
-
-* [Slides](https://docs.google.com/presentation/d/1axo2Dlm0Hx35ahKdZW6s-UAdG61L41QXdete8ZcQV0w/edit?usp=sharing)
-
-### Links Úteis
-- [Documentação Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-- [Introdução ao Pandas](https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38)
-- [Análise Exploratória de Dados I](https://escoladedados.org/tutoriais/analise-exploratoria-de-dados/)
-- [Análise Exploratória de Dados II](https://www.alura.com.br/artigos/analise-exploratoria)
-- [Storytelling com Dados](https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704)
-- [Markdown Cheastsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
+ Verificar a percepção sobre o impacto no trabalho em relação ao uso de telas.
 
   #### Base de Dados
 - [Kaggle](https://www.kaggle.com/datasets)
-- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
-- [Brasil.io](https://brasil.io/datasets/)
-- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
-- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
 
-<p align="center">
-Desenvolvido com :purple_heart:  
-</p>
-
-
+ _ Adição de apresentação no Tableau
+ link: https://public.tableau.com/app/profile/manuelli.martins/viz/S18Trabalho_final/Painel1
