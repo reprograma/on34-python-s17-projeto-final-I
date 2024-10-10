@@ -67,6 +67,10 @@ Durante o desenvolvimento, outras questões foram levantadas:
    ```bash
    git clone https://github.com/meduardajustino/on34-python-s17-s18-projeto-final.
 
+## Dashboard e apresentação
+
+Enfoque nas visualizações e nos dashboards feitos no [Tableau][https://public.tableau.com/views/ImpactodaInflaosobreoPoderdeCompraumaanlisemultidimensional_17284101391240/Planilha8?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link], como também os gráficos do arquivo [jupyter][https://colab.research.google.com/github/meduardajustino/on34-python-s17-s18-projeto-final/blob/main/S17_Projeto_Final.ipynb]
+
 
    
 <p align="center">
