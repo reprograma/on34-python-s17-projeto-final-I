@@ -1,104 +1,41 @@
-<h1 align="center">
-  <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
-</h1>
+# Análise de dados Enem 2023
+![enem1](https://github.com/user-attachments/assets/0f22035f-d723-4833-9b95-4016bb4b3217)
 
-# Tema da Aula
+## Contexto
 
-Turma Online 34 | Python | Semanas 17 e 18 | 2024 | [Daniele Junior](https://travatech.com.br?router=danijr)
+Neste projeto será realizada a análise dos microdados do ENEM do ano de 2023, filtrando apenas pelas regiões Norte e Sul do país, analisaremos especificamente os dados dos inscritos  do sexo feminino das regiões Norte e Sul do Brasil. O projeto tem como objetivo analisar se há diferenças entre as inscritas dos extremos do país.
 
-### Instruções
-Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras instruções caso necessário]
+## Objetivo
 
-### Resumo
-O que veremos na aula de hoje?
-* [Slide Semana 17](https://docs.google.com/presentation/d/1axo2Dlm0Hx35ahKdZW6s-UAdG61L41QXdete8ZcQV0w/edit?usp=sharing)
-* Slide Semana 18
+O objetivo geral é analisar as possíveis diferenças entre as inscritas das regiões Norte e Sul para o ENEM 2023.
 
-* [Escolhendo uma fonte de dados](#Escolhendoumafontededados)
-* Análise exploratória
-* Criando uma história com dados
+Dentre os objetivos específicos temos:
 
-## Conteúdo
+* Identificar qual o percentual de inscritos do sexo feminino nas regiões Norte e Sul;
+* Identificar o percentual de falta entre as inscritas nas regiões Norte e Sul;
+* Identificar o percentual de inscritas por faixa de renda familiar;
+* Identificar qual o top 100 de maiores notas entre todas as provas e visualizar em qual faixa de renda familiar está à maioria deste Top 100. Também verificar como o Top 100 está distribuído por região (Norte e Sul).
 
-### O que é um projeto de análise de dados?
-Nesse ponto vocês já aprenderam que ter dados não é a mesma coisa que ter informação.
-**Dados:** são elementos brutos e não processados, como números, palavras, ou símbolos que precisam ser interpretados para se tornarem úteis. 
-**Informação:** é o resultado do processamento, organização e interpretação dos dados, fornecendo significado e contexto para tomar decisões ou entender situações. 
-Assim, dados são a matéria-prima da informação, que é o produto final após análise e interpretação dos dados.
+Neste projeto usa-se análise exploratória de dados, a fim de obter informações da base de dados escolhida.
 
-Por isso a importância de nós contarmos uma história estruturada a partir dos dados que conseguimos coletar. E é exatamente sobre isso, que se trata um projeto de análise de dados: **gerar informação útil a partir da construção de uma perspectiva contextualizada!**
+## Base Escolhida
+Microdados do ENEM do ano de 2023
+Disponibilizado pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira - Inep.
+(https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
 
-Então aqui vão algumas perguntas gerais que devemos nos fazer ao iniciar um projeto como esse:
-
-- **Conteúdo**
-  - O que eu quero informar?
-- **Público**
-  - Para quem eu estou contanto essa história? Com quem vou compartilhar essa informação?
-- **Transformação**
-  - Por que essa informação é relevante?
-    
-Ok, as perguntas são importantes, 
-
-MAS POR ONDE COMEÇAR?!
-
-### Escolhendo uma fonte de dados
-
-#### O caminho comum
-Se você já fez algum tipo de pesquisa acadêmica (TCC, Iniciação Científica, etc) você certamente está familiarizado com esse processo, pois tudo começa com a escolha de um TEMA, seguindo para a definição do PROBLEMA, que em seguida é desdobrado em PERGUNTAS, que irão guiar a COLETA DE DADOS.
-
-1. Delimitação do Tema
-2. Definição do Problema
-3. Desenvolvimento de Perguntas
-4. Coleta de Dados
-
-#### O caminho que iremos seguir
-Porque esse projeto é um exercício e encontrar os dados ideais para responder às nossas perguntas pode se tornar um trabalho extremamente complexo...
-
-Nós iremos fazer um caminho um pouco diferente e a partir de um tema de interesse, escolher uma base e então pensar quais perguntas podem ser respondidas a partir dela.
-
-O QUE TAMBÉM É SUPER VÁLIDO! E PODE RENDER DESCOBERTAS INCRÍVEIS!
-
-  * **Escolha do tema**
-
-    No primeiro momento você deve escolher qual assunto gostaria de abordar. Pense em um tema atual, relevante e até onde você vai aprofundar a análise. Lembre-se, não adianta abraçar o mundo sozinho, você precisa focar e entregar o melhor resultado possível, então trabalhe na delimitação do Tema! Quais são os recortes possíveis dentro do universo escolhido?
-
-    #Dica: Dê prioridade para algo que você goste, se interesse, tenha afinidade ou conhecimento na área.
-
-  * **Escolha da Base de Dados**
-    
-    [Algumas opções de Bases de Dados](#base-de-dados)
-
-* **Definindo nossas perguntas**
+## Ferramentas utilizadas
+* Tableau
+* Python, com as bibliotecas:
+- Pandas
+- Matplotlib
   
-  O que eu quero tentar responder? VAMOS AO [BRAINSTORM](#material-da-aula)!
+##Link da visualização do projeto no Tableau
 
-***
+https://public.tableau.com/app/profile/luana.queiros/viz/Projeto_Final_ENEM2023/Painel2
 
-### Material da aula 
+![Reprograma-on34](https://github.com/user-attachments/assets/3942ca3d-6735-430c-aa05-5b540bea2863)
 
-* [Slides](https://docs.google.com/presentation/d/1axo2Dlm0Hx35ahKdZW6s-UAdG61L41QXdete8ZcQV0w/edit?usp=sharing)
 
-### Links Úteis
-- [Documentação Pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-- [Introdução ao Pandas](https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38)
-- [Análise Exploratória de Dados I](https://escoladedados.org/tutoriais/analise-exploratoria-de-dados/)
-- [Análise Exploratória de Dados II](https://www.alura.com.br/artigos/analise-exploratoria)
-- [Storytelling com Dados](https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704)
-- [Markdown Cheastsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
-
-  #### Base de Dados
-- [Kaggle](https://www.kaggle.com/datasets)
-- [IBGE](https://ces.ibge.gov.br/base-de-dados/links-base-de-dados.html)
-- [Brasil.io](https://brasil.io/datasets/)
-- [Gov.br](https://dados.gov.br/dados/conjuntos-dados)
-- [Nosso Mundo em Dados](https://ourworldindata.org/charts)
-
-<p align="center">
-Desenvolvido com :purple_heart:  
-</p>
+- Luana Paes
 
 
