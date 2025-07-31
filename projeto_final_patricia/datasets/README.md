@@ -5,6 +5,9 @@
 Este projeto visa realizar uma análise detalhada do Índice Bovespa, ajudando investidores a tomar decisões informadas sobre quais ações investir. Utilizamos técnicas de análise exploratória de dados e visualizações em Tableau para apresentar os resultados de forma clara e intuitiva. 📈
 
 
+<img width="972" height="547" alt="image" src="https://github.com/user-attachments/assets/abf92600-74d6-48a3-9458-7b095c550fa7" />
+
+
 
 
 ## Objetivos 🎯
